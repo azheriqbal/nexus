@@ -1,0 +1,278 @@
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------
+AzhersTest: test_visiting_the_index
+-----------------------------------
+Started GET "/index" for 127.0.0.1 at 2022-06-16 17:54:05 +0500
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------
+AzhersTest: test_visiting_the_index
+-----------------------------------
+Started GET "/meetingd" for 127.0.0.1 at 2022-06-16 17:54:34 +0500
+Processing by HomeController#meetingd as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/meetingd.html.erb within layouts/application
+  Rendered home/meetingd.html.erb within layouts/application (Duration: 1.9ms | Allocations: 896)
+  Rendered layout layouts/application.html.erb (Duration: 1052.8ms | Allocations: 226241)
+Completed 200 OK in 1084ms (Views: 1073.0ms | ActiveRecord: 0.0ms | Allocations: 230535)
+Started GET "/assets/es-module-shims.min-606ae9c3279013fe751cee30f719a592f759e705edb66496812f3d9dbce3d850.js" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/application-3d48d8c012da93d9e036b1fc7583131207f68313f4eaa3ca0625140d693a23d7.css" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/stimulus-loading-1fc59770fb1654500044afd3f5f6d7d00800e5be36746d55b94a2963a7a228aa.js" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/fontawesome.css" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/application-37f365cbecf1fa2810a8303f4b6571676fa1f9c56c248528bc14ddb857531b95.js" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/templatemo-edu-meeting.css" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/lightbox.css" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/owl.css" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/bootstrap.bundle.min.js" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/isotope.min.js" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/controllers/index-2db729dddcc5b979110e98de4b6720f83f91a123172e87281d5a58410fc43806.js" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/owl-carousel.js" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/controllers/application-368d98631bccbf2349e0d4f8269afb3fe9625118341966de054759d96ea86c7e.js" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/lightbox.js" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/tabs.js" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/video.js" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/slick-slider.js" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/custom.js" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/images/single-meeting.jpg" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/turbo.min-e5023178542f05fc063cd1dc5865457259cc01f3fba76a28454060d33de6f429.js" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/stimulus.min-900648768bd96f3faeba359cf33c1bd01ca424ca4d2d05f36a5d8345112ae93c.js" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/images/heading-bg.jpg" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/images/meetings-page-bg.jpg" for 127.0.0.1 at 2022-06-16 17:54:35 +0500
+Started GET "/assets/fonts/fontawesome-webfont.woff2?v=4.3.0" for 127.0.0.1 at 2022-06-16 17:54:36 +0500
+Started GET "/assets/controllers/hello_controller-549135e8e7c683a538c3d6d517339ba470fcfb79d62f738a0a089ba41851a554.js" for 127.0.0.1 at 2022-06-16 17:54:36 +0500
+Started GET "/assets/images/prev.png" for 127.0.0.1 at 2022-06-16 17:54:36 +0500
+Started GET "/assets/images/next.png" for 127.0.0.1 at 2022-06-16 17:54:36 +0500
+Started GET "/assets/images/loading.gif" for 127.0.0.1 at 2022-06-16 17:54:36 +0500
+Started GET "/assets/images/close.png" for 127.0.0.1 at 2022-06-16 17:54:36 +0500
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------
+AzhersTest: test_visiting_the_index
+-----------------------------------
+Started GET "/meetingd" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Processing by HomeController#meetingd as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/meetingd.html.erb within layouts/application
+  Rendered home/meetingd.html.erb within layouts/application (Duration: 3.9ms | Allocations: 896)
+  Rendered layout layouts/application.html.erb (Duration: 142.1ms | Allocations: 50060)
+Completed 200 OK in 193ms (Views: 151.0ms | ActiveRecord: 0.0ms | Allocations: 54355)
+Started GET "/assets/es-module-shims.min-606ae9c3279013fe751cee30f719a592f759e705edb66496812f3d9dbce3d850.js" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/application-3d48d8c012da93d9e036b1fc7583131207f68313f4eaa3ca0625140d693a23d7.css" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/application-37f365cbecf1fa2810a8303f4b6571676fa1f9c56c248528bc14ddb857531b95.js" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/fontawesome.css" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/lightbox.css" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/owl.css" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/templatemo-edu-meeting.css" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/bootstrap.bundle.min.js" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/controllers/index-2db729dddcc5b979110e98de4b6720f83f91a123172e87281d5a58410fc43806.js" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/isotope.min.js" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/owl-carousel.js" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/lightbox.js" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/tabs.js" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/controllers/application-368d98631bccbf2349e0d4f8269afb3fe9625118341966de054759d96ea86c7e.js" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/video.js" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/slick-slider.js" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/custom.js" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/images/single-meeting.jpg" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/turbo.min-e5023178542f05fc063cd1dc5865457259cc01f3fba76a28454060d33de6f429.js" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/stimulus.min-900648768bd96f3faeba359cf33c1bd01ca424ca4d2d05f36a5d8345112ae93c.js" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/stimulus-loading-1fc59770fb1654500044afd3f5f6d7d00800e5be36746d55b94a2963a7a228aa.js" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/images/heading-bg.jpg" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/images/meetings-page-bg.jpg" for 127.0.0.1 at 2022-06-16 18:08:12 +0500
+Started GET "/assets/fonts/fontawesome-webfont.woff2?v=4.3.0" for 127.0.0.1 at 2022-06-16 18:08:13 +0500
+Started GET "/assets/controllers/hello_controller-549135e8e7c683a538c3d6d517339ba470fcfb79d62f738a0a089ba41851a554.js" for 127.0.0.1 at 2022-06-16 18:08:13 +0500
+Started GET "/assets/images/close.png" for 127.0.0.1 at 2022-06-16 18:08:13 +0500
+Started GET "/assets/images/loading.gif" for 127.0.0.1 at 2022-06-16 18:08:13 +0500
+Started GET "/assets/images/next.png" for 127.0.0.1 at 2022-06-16 18:08:13 +0500
+Started GET "/assets/images/prev.png" for 127.0.0.1 at 2022-06-16 18:08:13 +0500
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (10.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (8.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "posts"[0m
+  [1m[35m (8.7ms)[0m  [1m[35mCREATE TABLE "posts" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "body" text, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (10.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (8.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20220616133253)[0m
+  [1m[35m (10.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "test"], ["created_at", "2022-06-16 13:35:49.681942"], ["updated_at", "2022-06-16 13:35:49.681942"]]
+  [1m[36mTRANSACTION (6.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "schema_sha1"], ["value", "623ae1540ec779044fa07c56eb459a63eaeda60c"], ["created_at", "2022-06-16 13:35:49.694946"], ["updated_at", "2022-06-16 13:35:49.694946"]]
+  [1m[36mTRANSACTION (6.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------
+AzhersTest: test_visiting_the_index
+-----------------------------------
+Started GET "/meetingd" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Processing by HomeController#meetingd as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/meetingd.html.erb within layouts/application
+  Rendered home/meetingd.html.erb within layouts/application (Duration: 1.6ms | Allocations: 896)
+  Rendered layout layouts/application.html.erb (Duration: 254.8ms | Allocations: 55135)
+Completed 200 OK in 264ms (Views: 259.7ms | ActiveRecord: 0.0ms | Allocations: 59427)
+Started GET "/assets/es-module-shims.min-606ae9c3279013fe751cee30f719a592f759e705edb66496812f3d9dbce3d850.js" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/application-3d48d8c012da93d9e036b1fc7583131207f68313f4eaa3ca0625140d693a23d7.css" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/application-37f365cbecf1fa2810a8303f4b6571676fa1f9c56c248528bc14ddb857531b95.js" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/fontawesome.css" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/templatemo-edu-meeting.css" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/owl.css" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/lightbox.css" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/bootstrap.bundle.min.js" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/controllers/index-2db729dddcc5b979110e98de4b6720f83f91a123172e87281d5a58410fc43806.js" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/isotope.min.js" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/owl-carousel.js" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/lightbox.js" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/video.js" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/tabs.js" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/controllers/application-368d98631bccbf2349e0d4f8269afb3fe9625118341966de054759d96ea86c7e.js" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/slick-slider.js" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/custom.js" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/images/single-meeting.jpg" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/turbo.min-e5023178542f05fc063cd1dc5865457259cc01f3fba76a28454060d33de6f429.js" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/stimulus.min-900648768bd96f3faeba359cf33c1bd01ca424ca4d2d05f36a5d8345112ae93c.js" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/stimulus-loading-1fc59770fb1654500044afd3f5f6d7d00800e5be36746d55b94a2963a7a228aa.js" for 127.0.0.1 at 2022-06-17 14:49:21 +0500
+Started GET "/assets/images/heading-bg.jpg" for 127.0.0.1 at 2022-06-17 14:49:22 +0500
+Started GET "/assets/images/meetings-page-bg.jpg" for 127.0.0.1 at 2022-06-17 14:49:22 +0500
+Started GET "/assets/fonts/fontawesome-webfont.woff2?v=4.3.0" for 127.0.0.1 at 2022-06-17 14:49:22 +0500
+Started GET "/assets/controllers/hello_controller-549135e8e7c683a538c3d6d517339ba470fcfb79d62f738a0a089ba41851a554.js" for 127.0.0.1 at 2022-06-17 14:49:22 +0500
+Started GET "/assets/images/prev.png" for 127.0.0.1 at 2022-06-17 14:49:22 +0500
+Started GET "/assets/images/next.png" for 127.0.0.1 at 2022-06-17 14:49:22 +0500
+Started GET "/assets/images/loading.gif" for 127.0.0.1 at 2022-06-17 14:49:22 +0500
+Started GET "/assets/images/close.png" for 127.0.0.1 at 2022-06-17 14:49:22 +0500
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------
+AzhersTest: test_visiting_the_index
+-----------------------------------
+Started GET "/meetingd" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Processing by HomeController#meetingd as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/meetingd.html.erb within layouts/application
+  Rendered home/meetingd.html.erb within layouts/application (Duration: 1.7ms | Allocations: 896)
+  Rendered layout layouts/application.html.erb (Duration: 125.8ms | Allocations: 49939)
+Completed 200 OK in 133ms (Views: 128.8ms | ActiveRecord: 0.0ms | Allocations: 54231)
+Started GET "/assets/application-3d48d8c012da93d9e036b1fc7583131207f68313f4eaa3ca0625140d693a23d7.css" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/es-module-shims.min-606ae9c3279013fe751cee30f719a592f759e705edb66496812f3d9dbce3d850.js" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/application-37f365cbecf1fa2810a8303f4b6571676fa1f9c56c248528bc14ddb857531b95.js" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/fontawesome.css" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/templatemo-edu-meeting.css" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/owl.css" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/lightbox.css" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/controllers/index-2db729dddcc5b979110e98de4b6720f83f91a123172e87281d5a58410fc43806.js" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/bootstrap.bundle.min.js" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/isotope.min.js" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/owl-carousel.js" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/lightbox.js" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/controllers/application-368d98631bccbf2349e0d4f8269afb3fe9625118341966de054759d96ea86c7e.js" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/tabs.js" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/video.js" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/slick-slider.js" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/custom.js" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/images/single-meeting.jpg" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/turbo.min-e5023178542f05fc063cd1dc5865457259cc01f3fba76a28454060d33de6f429.js" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/stimulus.min-900648768bd96f3faeba359cf33c1bd01ca424ca4d2d05f36a5d8345112ae93c.js" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/stimulus-loading-1fc59770fb1654500044afd3f5f6d7d00800e5be36746d55b94a2963a7a228aa.js" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/images/heading-bg.jpg" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/images/meetings-page-bg.jpg" for 127.0.0.1 at 2022-06-17 14:49:52 +0500
+Started GET "/assets/fonts/fontawesome-webfont.woff2?v=4.3.0" for 127.0.0.1 at 2022-06-17 14:49:53 +0500
+Started GET "/assets/controllers/hello_controller-549135e8e7c683a538c3d6d517339ba470fcfb79d62f738a0a089ba41851a554.js" for 127.0.0.1 at 2022-06-17 14:49:53 +0500
+Started GET "/assets/images/prev.png" for 127.0.0.1 at 2022-06-17 14:49:53 +0500
+Started GET "/assets/images/next.png" for 127.0.0.1 at 2022-06-17 14:49:53 +0500
+Started GET "/assets/images/close.png" for 127.0.0.1 at 2022-06-17 14:49:53 +0500
+Started GET "/assets/images/loading.gif" for 127.0.0.1 at 2022-06-17 14:49:53 +0500
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------
+AzhersTest: test_visiting_the_index
+-----------------------------------
+Started GET "/meetingd" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Processing by HomeController#meetingd as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/meetingd.html.erb within layouts/application
+  Rendered home/meetingd.html.erb within layouts/application (Duration: 2.1ms | Allocations: 896)
+  Rendered layout layouts/application.html.erb (Duration: 132.9ms | Allocations: 49837)
+Completed 200 OK in 144ms (Views: 136.4ms | ActiveRecord: 0.0ms | Allocations: 54129)
+Started GET "/assets/es-module-shims.min-606ae9c3279013fe751cee30f719a592f759e705edb66496812f3d9dbce3d850.js" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/application-3d48d8c012da93d9e036b1fc7583131207f68313f4eaa3ca0625140d693a23d7.css" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/stimulus-loading-1fc59770fb1654500044afd3f5f6d7d00800e5be36746d55b94a2963a7a228aa.js" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/stimulus.min-900648768bd96f3faeba359cf33c1bd01ca424ca4d2d05f36a5d8345112ae93c.js" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/fontawesome.css" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/owl.css" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/lightbox.css" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/templatemo-edu-meeting.css" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/bootstrap.bundle.min.js" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/owl-carousel.js" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/tabs.js" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/isotope.min.js" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/lightbox.js" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/video.js" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/slick-slider.js" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/custom.js" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/images/single-meeting.jpg" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/turbo.min-e5023178542f05fc063cd1dc5865457259cc01f3fba76a28454060d33de6f429.js" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/application-37f365cbecf1fa2810a8303f4b6571676fa1f9c56c248528bc14ddb857531b95.js" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/controllers/index-2db729dddcc5b979110e98de4b6720f83f91a123172e87281d5a58410fc43806.js" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/controllers/application-368d98631bccbf2349e0d4f8269afb3fe9625118341966de054759d96ea86c7e.js" for 127.0.0.1 at 2022-06-17 15:45:02 +0500
+Started GET "/assets/images/heading-bg.jpg" for 127.0.0.1 at 2022-06-17 15:45:03 +0500
+Started GET "/assets/images/meetings-page-bg.jpg" for 127.0.0.1 at 2022-06-17 15:45:03 +0500
+Started GET "/assets/fonts/fontawesome-webfont.woff2?v=4.3.0" for 127.0.0.1 at 2022-06-17 15:45:03 +0500
+Started GET "/assets/controllers/hello_controller-549135e8e7c683a538c3d6d517339ba470fcfb79d62f738a0a089ba41851a554.js" for 127.0.0.1 at 2022-06-17 15:45:03 +0500
+Started GET "/assets/images/prev.png" for 127.0.0.1 at 2022-06-17 15:45:03 +0500
+Started GET "/assets/images/next.png" for 127.0.0.1 at 2022-06-17 15:45:03 +0500
+Started GET "/assets/images/loading.gif" for 127.0.0.1 at 2022-06-17 15:45:03 +0500
+Started GET "/assets/images/close.png" for 127.0.0.1 at 2022-06-17 15:45:03 +0500
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
